@@ -1,0 +1,107 @@
+/* style.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  color: #fff;
+  z-index: 1;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Search box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  width: 300px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px 0 0 25px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  background-color: #e23744;
+  color: white;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #c5202e;
+}
+
+/* CTA buttons */
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #e23744;
+  border: 2px solid #e23744;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e23744;
+  color: #fff;
+}

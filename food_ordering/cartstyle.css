@@ -1,0 +1,41 @@
+.cart-container {
+  padding: 30px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-table img {
+  border-radius: 8px;
+}
+
+.cart-summary {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.remove-btn {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn.cancel {
+  background-color: #999;
+  margin-left: 10px;
+}
+
+.empty {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 50px;
+}
